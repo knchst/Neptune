@@ -1,0 +1,48 @@
+PODS:
+  - APIKit (4.0.0):
+    - Result (~> 4.0)
+  - Kingfisher (4.10.1)
+  - ObjectMapper (3.3.0)
+  - Realm (3.11.1):
+    - Realm/Headers (= 3.11.1)
+  - Realm/Headers (3.11.1)
+  - RealmSwift (3.11.1):
+    - Realm (= 3.11.1)
+  - Result (4.0.0)
+  - SwiftMessages (6.0.0):
+    - SwiftMessages/App (= 6.0.0)
+  - SwiftMessages/App (6.0.0)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - APIKit
+  - Kingfisher
+  - ObjectMapper
+  - RealmSwift
+  - SwiftMessages
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - APIKit
+    - Kingfisher
+    - ObjectMapper
+    - Realm
+    - RealmSwift
+    - Result
+    - SwiftMessages
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  APIKit: 23ddce4be7eccd746d2ab3c62713cd80d5846d5a
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  Realm: 037c5919b9ceb59d6beed5d3b031096856b119b3
+  RealmSwift: c9580133e73ef40ed340401af2dbc9a5790dfea7
+  Result: 7645bb3f50c2ce726dd0ff2fa7b6f42bbe6c3713
+  SwiftMessages: da7c981256a65b3e58022d9027a36584cf4eccf5
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: e8ac9e77ae1680add65c8a4ebf24dff1792e38fd
+
+COCOAPODS: 1.5.3

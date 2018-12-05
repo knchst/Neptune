@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Neptune
 //
-//  Created by Kenichi Saito on 11/21/18.
+//  Created by Kenichi Saito on 12/3/18.
 //  Copyright © 2018 Kenichi Saito. All rights reserved.
 //
 
@@ -15,7 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        UITabBar.appearance().tintColor = App.Const.brandColor
+        UINavigationBar.appearance().titleTextAttributes = [
+            NSAttributedString.Key.foregroundColor: App.Const.darkColor,
+            NSAttributedString.Key.font: UIFont.systemFont(ofSize: 14, weight: .semibold)
+        ]
+        UINavigationBar.appearance().tintColor = App.Const.darkColor
+        
         return true
     }
 

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="RecipeCollectionViewCell" customModule="Neptune" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="188" height="188"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="188" height="188"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ash-MX-fNb">
+                        <rect key="frame" x="0.0" y="0.0" width="188" height="188"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cvI-wj-hGb">
+                                <rect key="frame" x="0.0" y="0.0" width="188" height="188"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jeb-U8-70I">
+                                <rect key="frame" x="155" y="8" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="9ke-MC-16c"/>
+                                    <constraint firstAttribute="height" constant="25" id="Q3E-EG-E2D"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="favoriteBtnAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="GeB-MI-nC0"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="{title}" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0M-Rz-i46">
+                                <rect key="frame" x="8" y="166" width="172" height="14"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="13"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="cvI-wj-hGb" secondAttribute="trailing" id="7Gc-lU-Bsb"/>
+                            <constraint firstItem="Jeb-U8-70I" firstAttribute="top" secondItem="Ash-MX-fNb" secondAttribute="top" constant="8" id="7nb-L8-MYJ"/>
+                            <constraint firstItem="f0M-Rz-i46" firstAttribute="leading" secondItem="Ash-MX-fNb" secondAttribute="leading" constant="8" id="ENG-Yt-HWJ"/>
+                            <constraint firstItem="cvI-wj-hGb" firstAttribute="leading" secondItem="Ash-MX-fNb" secondAttribute="leading" id="LR6-Bv-q4u"/>
+                            <constraint firstAttribute="trailing" secondItem="Jeb-U8-70I" secondAttribute="trailing" constant="8" id="V9h-G9-9rz"/>
+                            <constraint firstItem="cvI-wj-hGb" firstAttribute="top" secondItem="Ash-MX-fNb" secondAttribute="top" id="XGT-zi-B5V"/>
+                            <constraint firstAttribute="bottom" secondItem="f0M-Rz-i46" secondAttribute="bottom" constant="8" id="eAv-L0-8Ul"/>
+                            <constraint firstAttribute="bottom" secondItem="cvI-wj-hGb" secondAttribute="bottom" id="jMC-N3-1YN"/>
+                            <constraint firstAttribute="trailing" secondItem="f0M-Rz-i46" secondAttribute="trailing" constant="8" id="oUU-Sf-NXt"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Ash-MX-fNb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="16q-RH-ZiI"/>
+                <constraint firstAttribute="bottom" secondItem="Ash-MX-fNb" secondAttribute="bottom" id="G8p-pi-ien"/>
+                <constraint firstAttribute="trailing" secondItem="Ash-MX-fNb" secondAttribute="trailing" id="YnV-Uf-mTC"/>
+                <constraint firstItem="Ash-MX-fNb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="i49-3s-bps"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="188" height="188"/>
+            <connections>
+                <outlet property="favoriteBtn" destination="Jeb-U8-70I" id="lUR-c1-vdi"/>
+                <outlet property="recipeImageView" destination="cvI-wj-hGb" id="noB-p8-6uQ"/>
+                <outlet property="titleLabel" destination="f0M-Rz-i46" id="4W5-Ae-xaB"/>
+            </connections>
+            <point key="canvasLocation" x="248" y="215.8920539730135"/>
+        </collectionViewCell>
+    </objects>
+</document>
