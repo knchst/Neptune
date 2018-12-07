@@ -35,7 +35,7 @@ extension RecipesDataManager: UICollectionViewDataSource {
             cell.isFavorited = isFavorited
             if isFavorited {
                 cell.animateFavoriteBtn()
-                self?.presenter.addTabBarItemFavoritedBadge()
+                self?.presenter.recipeFavorited()
             }
         }
         return cell

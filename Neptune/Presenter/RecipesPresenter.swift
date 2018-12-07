@@ -45,7 +45,7 @@ class RecipesPresenter {
         self.view?.showRecipeDetail(id: recipeId)
     }
     
-    func addTabBarItemFavoritedBadge() {
+    func recipeFavorited() {
         self.view?.recipeFavorited()
     }
 }
