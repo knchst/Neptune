@@ -10,7 +10,6 @@ import Foundation
 import APIKit
 import Result
 import RealmSwift
-@testable import Neptune
 
 protocol RecipeDetailServiceable {
     func fetchRecipe(completion: @escaping (Result<RecipeDetailRequest.Response, SessionTaskError>) -> Void)

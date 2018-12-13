@@ -9,7 +9,6 @@
 import UIKit
 import RealmSwift
 import MediaPlayer
-@testable import Neptune
 
 class RecipeDetailDataManager: NSObject {
     private let presenter: RecipeDetailPresenter

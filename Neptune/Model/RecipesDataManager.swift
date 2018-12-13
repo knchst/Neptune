@@ -8,7 +8,6 @@
 
 import UIKit
 import RealmSwift
-@testable import Neptune
 
 class RecipesDataManager: NSObject {
     private let presenter: RecipesPresenter

@@ -7,7 +7,6 @@
 //
 
 import Foundation
-@testable import Neptune
 
 protocol RecipeDetailView: class {
     func fetchStarted()

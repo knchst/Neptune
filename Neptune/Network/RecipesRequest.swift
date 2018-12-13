@@ -11,7 +11,6 @@ import APIKit
 import ObjectMapper
 import SwiftyJSON
 import RealmSwift
-@testable import Neptune
 
 class RecipesRequestError: Error { }
 

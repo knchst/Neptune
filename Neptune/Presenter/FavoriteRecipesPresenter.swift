@@ -8,7 +8,6 @@
 
 import UIKit
 import RealmSwift
-@testable import Neptune
 
 protocol FavoriteRecipesView: class {
     func showRecipeDetail(id: String)

@@ -10,7 +10,6 @@ import Foundation
 import APIKit
 import ObjectMapper
 import SwiftyJSON
-@testable import Neptune
 
 class RecipeDetailRequestError: Error { }
 

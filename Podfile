@@ -7,12 +7,12 @@ def common
   pod 'RealmSwift'
   pod 'ObjectMapper'
   pod 'SwiftyJSON'
-  pod 'Kingfisher'
 end
 
 target 'Neptune' do
   common
   pod 'SwiftMessages'
+  pod 'Kingfisher'
 end
 
 target 'NeptuneTests' do

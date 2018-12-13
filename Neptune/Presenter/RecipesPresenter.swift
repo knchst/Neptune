@@ -8,7 +8,6 @@
 
 import UIKit
 import RealmSwift
-@testable import Neptune
 
 protocol RecipesView: class {
     func fetchStarted()
