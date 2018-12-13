@@ -9,7 +9,7 @@
 import Foundation
 import ObjectMapper
 
-internal class RecipeDetail: Mappable {
+class RecipeDetail: Mappable {
     var id: String!
     var type: String!
     var title: String!

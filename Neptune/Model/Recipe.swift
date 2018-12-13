@@ -10,7 +10,7 @@ import Foundation
 import ObjectMapper
 import RealmSwift
 
-internal class Recipe: Object {
+class Recipe: Object {
     @objc dynamic var id: String!
     @objc dynamic var type: String!
     @objc dynamic var title: String!

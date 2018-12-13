@@ -9,7 +9,7 @@
 import Foundation
 import RealmSwift
 
-internal class FavoriteRecipe: Object {
+class FavoriteRecipe: Object {
     @objc dynamic var id: String!
     @objc dynamic var type: String!
     @objc dynamic var title: String!
