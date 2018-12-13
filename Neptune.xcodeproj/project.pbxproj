@@ -23,9 +23,7 @@
 		2704CE2721B6578200D38740 /* RecipeDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2704CE2621B6578200D38740 /* RecipeDetailPresenter.swift */; };
 		2731C15821AE30F3000D573A /* RecipesViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2731C15721AE30F3000D573A /* RecipesViewMock.swift */; };
 		2731C15A21AE335F000D573A /* RecipesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2731C15921AE335F000D573A /* RecipesService.swift */; };
-		2731C15B21AE366C000D573A /* RecipesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2731C15921AE335F000D573A /* RecipesService.swift */; };
 		2731C15E21AE382E000D573A /* RecipesServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2731C15D21AE382E000D573A /* RecipesServiceMock.swift */; };
-		2731C16021AE3EEC000D573A /* RecipesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2733754021A64984007C1C05 /* RecipesPresenter.swift */; };
 		2731C16121AE3EEF000D573A /* RecipesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2733753D21A5BD60007C1C05 /* RecipesRequest.swift */; };
 		2731C16D21AE5B9F000D573A /* NeptuneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2731C16C21AE5B9F000D573A /* NeptuneUITests.swift */; };
 		2733753921A5ABB8007C1C05 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2733753821A5ABB8007C1C05 /* TabBarController.swift */; };
@@ -69,13 +67,11 @@
 		279ADBDA21A6FCFA004AE4FA /* FavoriteRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279ADBD921A6FCFA004AE4FA /* FavoriteRecipe.swift */; };
 		279ADBDD21A7E607004AE4FA /* FavoriteRecipesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279ADBDC21A7E607004AE4FA /* FavoriteRecipesPresenter.swift */; };
 		27D095D021AE9BF4004499E5 /* RecipesDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2733754D21A68B62007C1C05 /* RecipesDataManager.swift */; };
-		27D095D121AE9C1A004499E5 /* RecipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2733754221A657EF007C1C05 /* RecipeCollectionViewCell.swift */; };
 		27D095D321AF8D24004499E5 /* RecipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D095D221AF8D24004499E5 /* RecipeTests.swift */; };
 		27D095D521AF9739004499E5 /* NPTAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D095D421AF9739004499E5 /* NPTAnimation.swift */; };
 		27D095D621AF99D0004499E5 /* NPTAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D095D421AF9739004499E5 /* NPTAnimation.swift */; };
 		27D095D821AFA3C8004499E5 /* FavoriteRecipesDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D095D721AFA3C7004499E5 /* FavoriteRecipesDataManager.swift */; };
 		27D095D921AFA3C8004499E5 /* FavoriteRecipesDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D095D721AFA3C7004499E5 /* FavoriteRecipesDataManager.swift */; };
-		27D095DB21AFA4A7004499E5 /* FavoriteRecipesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279ADBDC21A7E607004AE4FA /* FavoriteRecipesPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -649,18 +645,14 @@
 				27D095D921AFA3C8004499E5 /* FavoriteRecipesDataManager.swift in Sources */,
 				2704CE1721B61FED00D38740 /* FavoriteRecipesPresenterTests.swift in Sources */,
 				27D095D021AE9BF4004499E5 /* RecipesDataManager.swift in Sources */,
-				27D095D121AE9C1A004499E5 /* RecipeCollectionViewCell.swift in Sources */,
 				2704CE1321B5652900D38740 /* FavoriteRecipesViewMock.swift in Sources */,
 				27D095D621AF99D0004499E5 /* NPTAnimation.swift in Sources */,
 				2704CE2021B6437800D38740 /* RecipeDetailService.swift in Sources */,
 				2731C16121AE3EEF000D573A /* RecipesRequest.swift in Sources */,
 				2781B72421B677A3006244D8 /* RecipeDetailPresenter.swift in Sources */,
 				2733754B21A686A0007C1C05 /* RecipesPresenterTests.swift in Sources */,
-				27D095DB21AFA4A7004499E5 /* FavoriteRecipesPresenter.swift in Sources */,
-				2731C16021AE3EEC000D573A /* RecipesPresenter.swift in Sources */,
 				2731C15821AE30F3000D573A /* RecipesViewMock.swift in Sources */,
 				2704CE1F21B6436300D38740 /* RecipeDetailServiceMock.swift in Sources */,
-				2731C15B21AE366C000D573A /* RecipesService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -852,6 +844,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -913,6 +906,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;

@@ -6,10 +6,10 @@
 //  Copyright © 2018 Kenichi Saito. All rights reserved.
 //
 
-@testable import Neptune
 import Foundation
 import APIKit
 import Result
+@testable import Neptune
 
 class RecipesServiceMock: RecipesServiceable {
     var result: Result<RecipesRequest.Response, SessionTaskError>!

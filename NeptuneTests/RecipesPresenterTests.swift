@@ -10,7 +10,6 @@ import XCTest
 import APIKit
 import Result
 import RealmSwift
-
 @testable import Neptune
 
 class RecipesPresenterTests: XCTestCase {

@@ -9,7 +9,6 @@
 import Foundation
 import APIKit
 import Result
-@testable import Neptune
 
 protocol RecipesServiceable {
     func fetchRecipes(completion: @escaping (Result<RecipesRequest.Response, SessionTaskError>) -> Void)

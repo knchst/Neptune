@@ -9,7 +9,6 @@
 import UIKit
 import Kingfisher
 import RealmSwift
-@testable import Neptune
 
 class RecipeCollectionViewCell: UICollectionViewCell {
     private lazy var gradient: CAGradientLayer = {

@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import Neptune
 
 class RecipeDetailPresenterTests: XCTestCase {
     let recipeDetailViewMock = RecipeDetailViewMock()

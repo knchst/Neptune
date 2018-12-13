@@ -7,6 +7,7 @@
 //
 
 import Foundation
+@testable import Neptune
 
 class FavoriteRecipesViewMock: FavoriteRecipesView {
     var isUpdated = false

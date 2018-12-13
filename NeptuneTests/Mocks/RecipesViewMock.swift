@@ -7,6 +7,7 @@
 //
 
 import Foundation
+@testable import Neptune
 
 class RecipesViewMock: RecipesView {
     var isFetchStarted = false
